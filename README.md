@@ -187,13 +187,13 @@ df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass'
 df5
 ~~~
 
-# OUPUT:
-# DATA CSV
-# Initial Dataset:
+OUPUT:
+DATA CSV
+Initial Dataset:
+image
 
-
-# Binary Encoding:
-
+Binary Encoding:
+image
 
 image
 
