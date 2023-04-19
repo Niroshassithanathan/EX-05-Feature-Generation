@@ -20,6 +20,8 @@ Save the data to the file
 
 
 # CODE
+NAME:NIROSHA.S
+ROLL NUMBER:212222230097
 ~~~.py
 DATA.CSV
 import pandas as pd
@@ -187,81 +189,101 @@ df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass'
 df5
 ~~~
 
-OUPUT:
-DATA CSV
-Initial Dataset:
-image
+# OUPUT:
+# DATA CSV
+# Initial Dataset:
 
-Binary Encoding:
-image
+![DS O1](https://user-images.githubusercontent.com/121418437/232954367-3df14350-ff94-40a5-8815-6bde87d1760b.png)
 
-image
+# Binary Encoding:
 
-Encoded Dataset:
-image
+![DS O2](https://user-images.githubusercontent.com/121418437/232954498-7ec5387a-01d3-4f75-813c-fc6737852ae2.png)
 
-Data Scaling using MinMaxScaler:
-image
+![DS O3](https://user-images.githubusercontent.com/121418437/232954520-6e0fc272-7b95-4a00-b254-c430caf5b945.png)
 
-Data Scaling using StandardScaler:
-image
+# Encoded Dataset:
 
-Data Scaling using MaxAbsScaler:
-image
+![DS O4](https://user-images.githubusercontent.com/121418437/232954537-2376408b-5bbf-49b6-bc28-2335540af010.png)
 
-Encoding.csv :
-Initial Dataset:
-image
+# Data Scaling using MinMaxScaler:
 
-#Binary Encoding:
+![DS O5](https://user-images.githubusercontent.com/121418437/232954576-3d40f663-6e13-47e5-9c8e-53982532ed98.png)
 
-image
+# Data Scaling using StandardScaler:
 
-image
+![DS O6](https://user-images.githubusercontent.com/121418437/232954606-25210ddc-2698-461b-a9ed-b9735f7085c2.png)
 
-Encoded Dataset:
-image
+# Data Scaling using MaxAbsScaler:
 
-Data Scaling using MinMaxScaler:
-image
+![DS O7](https://user-images.githubusercontent.com/121418437/232954723-92317942-e19b-469b-9e14-a9d3db99234d.png)
 
-Data Scaling using MaxAbsScaler:
-image
+# Encoding.csv :
+# Initial Dataset:
 
-Data Scaling using RobustScaler:
-image
+![DS O8](https://user-images.githubusercontent.com/121418437/232954793-162ff925-a856-4670-82db-9cf63e5ac0fd.png)
 
-Titanic.csv :
-Initial Dataset:
-image
+# Binary Encoding: 
 
-Data cleaning before encoding:
-image
+![DS O9](https://user-images.githubusercontent.com/121418437/232954812-78b561f6-8893-4600-8409-c1691e629a18.png)
 
-image
+![DS O10](https://user-images.githubusercontent.com/121418437/232954899-07de12ce-b068-4e21-8887-356a9ce79a00.png)
 
-image
+# Encoded Dataset:
 
-Cleaned Dataset:
-image
+![DS O11](https://user-images.githubusercontent.com/121418437/232954930-06ec7c84-11b3-4254-a065-05078be17d75.png)
 
-Binary Encoding:
-image
+# Data Scaling using MinMaxScaler:
 
-Encoded Dataset:
-image
+![DS O12](https://user-images.githubusercontent.com/121418437/232955097-d4f62375-3194-43c6-a582-f65ef5dbedf1.png)
 
-Data Scaling using MinMaxScaler:
-image
+# Data Scaling using MaxAbsScaler:
 
-Data Scaling using StandardScaler:
-image
+![DS O13](https://user-images.githubusercontent.com/121418437/232955129-080c68c9-2c69-469e-97d7-ca5a60025a64.png)
 
-Data Scaling using MaxAbsScaler:
-image
+# Data Scaling using RobustScaler:
 
-Data Scaling using RobustScaler:
-image
+![DS O14](https://user-images.githubusercontent.com/121418437/232955172-c758c4ad-2971-4cfc-b2f3-4ab506bb29ec.png)
 
-RESULT:
-Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
+# Titanic.csv :
+# Initial Dataset:
+
+![DS O15](https://user-images.githubusercontent.com/121418437/232955248-6442e459-ceb2-49b9-a5e2-fa2fbfc29921.png)
+
+# Data cleaning before encoding:
+
+![DS O16](https://user-images.githubusercontent.com/121418437/232955285-ec51861e-dc16-4eae-81fb-a0f39304a764.png)
+
+![DS O17](https://user-images.githubusercontent.com/121418437/232955305-bb9cd321-957f-4fbf-8ec3-5704dfe03da7.png)
+
+![DS O18](https://user-images.githubusercontent.com/121418437/232955327-974a6099-8e3d-4eb4-8d59-b82c48d59ea6.png)
+
+# Cleaned Dataset:
+
+![DS O19](https://user-images.githubusercontent.com/121418437/232955350-197f0c98-75f5-4e1f-bd65-949a9e78ce77.png)
+
+# Binary Encoding:
+
+![DS O20](https://user-images.githubusercontent.com/121418437/232955375-1e14a005-bfee-4865-9a10-286469374a8f.png)
+
+# Encoded Dataset:
+
+![DS O21](https://user-images.githubusercontent.com/121418437/232955517-c5fcf53d-9fad-4008-9929-80487643a573.png)
+
+# Data Scaling using MinMaxScaler:
+
+![DS O22](https://user-images.githubusercontent.com/121418437/232955576-4d1cf861-87c1-45cd-b844-eab29e56ac56.png)
+
+# Data Scaling using StandardScaler:
+
+![DS O23](https://user-images.githubusercontent.com/121418437/232955604-2784f614-9450-4e1d-a82b-7009c12e803d.png)
+
+# Data Scaling using MaxAbsScaler:
+
+![DS O24](https://user-images.githubusercontent.com/121418437/232955644-f4c6064d-8126-4b71-9079-1a36abc08183.png)
+
+# Data Scaling using RobustScaler:
+
+![DS O25](https://user-images.githubusercontent.com/121418437/232955671-d0f2ba87-dab5-47e8-9968-515f2a94b16d.png)
+
+# RESULT:
+   Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
